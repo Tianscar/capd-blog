@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>碳素地牢</title>
+  <icon>https://carbonizedpd.tianscar.com/icon.png</icon>
+  
+  <link href="https://carbonizedpd.tianscar.com/atom.xml" rel="self"/>
+  
+  <link href="https://carbonizedpd.tianscar.com/"/>
+  <updated>2023-05-02T12:52:29.232Z</updated>
+  <id>https://carbonizedpd.tianscar.com/</id>
+  
+  <author>
+    <name>Tianscar</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重载版本！</title>
+    <link href="https://carbonizedpd.tianscar.com/2023/02/25/reloaded/"/>
+    <id>https://carbonizedpd.tianscar.com/2023/02/25/reloaded/</id>
+    <published>2023-02-25T00:15:59.000Z</published>
+    <updated>2023-05-02T12:52:29.232Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;实际上，“碳素地牢”这个项目已经作废了，至少不再在我工作室项目的名单里了&lt;br&gt;GitHub 上的仓库也已经 Archived（封存）了&lt;br&gt;不过我决定以个人的名义继续制作下去&lt;/p&gt;
+&lt;p&gt;此为，“重载版本”！&lt;/p&gt;
+&lt;p&gt;这次不会再停更了，无论因为什么原因。&lt;/p&gt;
+&lt;p&gt;2023 年 2 月 23 日恢复更新&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="预告" scheme="https://carbonizedpd.tianscar.com/categories/%E9%A2%84%E5%91%8A/"/>
+    
+    
+    <category term="计划" scheme="https://carbonizedpd.tianscar.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+    
+    
+  </entry>
+  
+</feed>
