@@ -85,6 +85,11 @@ navbar:
     path: /
     key: home
   -
+    name: 下载
+    enable: true
+    path: https://github.com/Tianscar/carbonized-pixel-dungeon/releases
+    key: home
+  -
     name: 归档
     enable: true
     path: /archives/
