@@ -117,7 +117,7 @@ navbar:
   -
     name: 捐赠
     enable: true
-    path: /sponsor/
+    path: https://afdian.net/a/tianscar
     key: sponsor
 
 # 文章目录
