@@ -84,11 +84,7 @@ navbar:
     enable: true
     path: /
     key: home
-  -
-    name: 下载
-    enable: true
-    path: /release/
-    key: release
+
   -
     name: 归档
     enable: true
@@ -110,10 +106,20 @@ navbar:
     path: /friends/
     key: friends
   -
+    name: 下载
+    enable: true
+    path: /release/
+    key: release
+  -
     name: 关于
     enable: true
     path: /about/
     key: about
+  -
+    name: 源码
+    enable: true
+    path: https://github.com/Tianscar/carbonized-pixel-dungeon
+    key: source
   -
     name: 捐赠
     enable: true
@@ -155,7 +161,7 @@ footer:
     -
       name: GitHub
       icon: github
-      path: https://github.com/Tianscar/carbonized-pixel-dungeon-blog
+      path: https://github.com/Tianscar/carbonized-pixel-dungeon
     -
       name: Email
       icon: envelope
