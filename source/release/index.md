@@ -16,7 +16,7 @@ date: 2023-09-11 20:20:27
 
 <!-- DESC_END -->
 
-## Simplified Chinese
+## 简体中文
 
 <!-- DESC_BEGIN_ZH -->
 
@@ -26,7 +26,7 @@ date: 2023-09-11 20:20:27
 
 <!-- DESC_END_ZH -->
 
-## Traditional Chinese
+## 正體中文
 
 <!-- DESC_BEGIN_TC -->
 
