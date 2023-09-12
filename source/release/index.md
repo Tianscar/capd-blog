@@ -36,5 +36,5 @@ date: 2023-09-11 20:20:27
 
 <!-- DESC_END_TC -->
 
-[>> Android APK](/releases/carbonizedpd-0.2.0-alpha-android.apk)
-[>> Desktop JAR](/releases/carbonizedpd-0.2.0-alpha-desktop.jar)
+[>> Android APK](/release/carbonizedpd-0.2.0-alpha-android.apk)
+[>> Desktop JAR](/release/carbonizedpd-0.2.0-alpha-desktop.jar)
