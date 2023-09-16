@@ -3,6 +3,9 @@ title: 下载
 date: 2023-09-15 15:44:45
 ---
 
+[>> Android APK](/release/carbonizedpd-0.2.1-alpha-android.apk)
+[>> Desktop JAR](/release/carbonizedpd-0.2.1-alpha-desktop.jar)
+
 <!-- VERSION_NAME: v0.2.1-ALPHA -->
 <!-- VERSION_CODE: 111 -->
 
@@ -35,6 +38,3 @@ date: 2023-09-15 15:44:45
 - 少量 Bug 修復。
 
 <!-- DESC_END_TC -->
-
-[>> Android APK](/release/carbonizedpd-0.2.1-alpha-android.apk)
-[>> Desktop JAR](/release/carbonizedpd-0.2.1-alpha-desktop.jar)
