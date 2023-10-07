@@ -27,7 +27,7 @@ ingame: true
 《碳素地牢》的源代码基于《破碎的像素地牢》源代码，以 GPLv3 许可证开源，[源代码可以在 GitHub 上下载到](https://github.com/Tianscar/carbonized-pixel-dungeon)。
 
 因为《碳素地牢》开源，如果要基于该游戏的源代码开发一款新的游戏，在遵守许可的情况下，无可厚非。但声称自己为我制作的游戏的作者，违反了 GPLv3 开源许可，属于赤裸裸的侵权行为。
-并且，游戏使用的部分贴图（作者 [Daniel Calan](https://github.com/DanielCalan)），以及部分 BGM（作者 [Progressive Tune](https://progressive-tune.github.io/ptr)/[Jasφn](https://music.163.com/artist?id=48991962&userid=3270966253)），并不在 GPLv3 的许可授权范围内，若是开发的新游戏内包含这部分素材，应先取得作者授权。
+并且，该游戏使用的部分贴图（作者 [Daniel Calan](https://github.com/DanielCalan)），以及部分 BGM（作者 [Progressive Tune](https://progressive-tune.github.io/ptr)/[Jasφn](https://music.163.com/artist?id=48991962&userid=3270966253)），并不在 GPLv3 的许可授权范围内，若是开发的新游戏内包含这部分素材，应先取得作者授权。
 
 事实上，对于一款开源游戏而言，就算**仅仅只是换掉未取得授权的素材和遵守源代码开源许可的条款，就能算作一个新游戏，不算侵权原作者了**。
 但是《碳素地牢》“作者”不渡Bud和铜陵游戏科技工作室**连这都不愿意做**。
