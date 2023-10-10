@@ -7,4 +7,9 @@ ingame: true
 ---
 
 2023 年 10 月 10 日（GMT+08:00），《碳素地牢》已上架好游快爆。
+
+<!-- DESC_END -->
+
 游戏主页：https://www.3839.com/a/159486.htm
+
+- Karstian Lee
