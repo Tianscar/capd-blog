@@ -116,6 +116,11 @@ navbar:
     path: /about/
     key: about
   -
+    name: 隐私
+    enable: true
+    path: /privacy/
+    key: privacy
+  -
     name: 源码
     enable: true
     path: https://github.com/Tianscar/carbonized-pixel-dungeon
