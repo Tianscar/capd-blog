@@ -166,9 +166,17 @@
         
       </div>
       <div class="markdown-body">
-        <p>《碳素地牢》是一款纯粹的单机游戏，没有接入任何统计 SDK 或广告 SDK，且游戏全程并不需要联网，游戏本身并不会主动收集任何用户信息。《碳素地牢》是开源游戏，若不放心且有能力，可以自己去源码仓库进行代码审查。</p>
-<p>《碳素地牢》的游戏新闻和内置更新服务（默认开启，可以在设置关闭）需要用到网络，会使用 HTTP&#x2F;HTTPS 协议从官网拉取内容。<br>《碳素地牢》官网本身并不会收集用户信息，但使用了一些 CDN 服务（例如 Cloudflare），这些 CDN 可能会收集用户的 IP 及 HTTP 头信息。</p>
-<p>《碳素地牢》的崩溃日志可能会包含部分设备信息，但是否发送、是否删除设备信息后再发送，完全取决于用户本人意愿。《碳素地牢》不会主动向开发者发送崩溃信息。</p>
+        <h2 id="对用户信息的收集说明"><a href="#对用户信息的收集说明" class="headerlink" title="对用户信息的收集说明"></a>对用户信息的收集说明</h2><h3 id="主动收集"><a href="#主动收集" class="headerlink" title="主动收集"></a>主动收集</h3><p>《碳素地牢》不会主动收集任何用户信息。</p>
+<h3 id="被动收集"><a href="#被动收集" class="headerlink" title="被动收集"></a>被动收集</h3><p>《碳素地牢》官网为 tianscar.com 子站。tianscar.com 使用了 Cloudflare 服务。该服务会收集网站访问者的 IP，可能收集其他信息。这些信息由 Cloudflare 管理，储存在 Cloudflare 的服务器，《碳素地牢》官方无法获取这些信息，只能看到访问 tianscar.com 的人数和 IP 地区，且无法判断这些访问是否来自《碳素地牢》玩家。<br>《碳素地牢》官网还使用了一些其他 CDN 服务，这些 CDN 服务可能会收集访问者的 IP 及其他信息。这些信息由 CDN 管理，储存在相应 CDN 的服务器，《碳素地牢》官方无法获取这些 CDN 可能收集的用户信息。<br>《碳素地牢》的游戏新闻和更新推送服务（默认开启，可以在设置关闭）需要用到网络，会使用 Android&#x2F;Java 的 HTTP&#x2F;HTTPS API，通过 HTTP&#x2F;HTTPS 协议从官网拉取内容，因此可能被 Cloudflare 和其他 CDN 收集信息。<br>《碳素地牢》的崩溃日志可能会包含部分设备信息，但是否发送、是否删除设备信息后再发送，完全取决于用户本人意愿。《碳素地牢》不会主动向开发者发送崩溃日志。</p>
+<p>若不同意这部分来自 Cloudflare 和其他 CDN 的被动信息收集，请不要访问碳素地牢官网、关闭《碳素地牢》的游戏新闻和更新推送服务或卸载《碳素地牢》。</p>
+<h2 id="应用权限说明"><a href="#应用权限说明" class="headerlink" title="应用权限说明"></a>应用权限说明</h2><h3 id="安卓版"><a href="#安卓版" class="headerlink" title="安卓版"></a>安卓版</h3><p>安装游戏时，《碳素地牢》会申请的权限及目的：</p>
+<ol>
+<li>振动，用于游戏内振动。</li>
+<li>网络，用于拉取游戏新闻和更新推送。</li>
+<li>获取当前网络状态，用于判断是 WiFi 还是流量，用于在游戏设置里调整“是否在使用流量的情况下拉取游戏新闻和更新推送”。</li>
+</ol>
+<p>不授予这几个权限几乎不会影响到游戏体验，游戏仍然能够正常玩。</p>
+<h3 id="桌面版"><a href="#桌面版" class="headerlink" title="桌面版"></a>桌面版</h3><p>桌面端没有严格的权限管理，因此无法列举。</p>
 
       </div>
       
@@ -190,6 +198,23 @@
       
     </div>
     
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">目录</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E7%9A%84%E6%94%B6%E9%9B%86%E8%AF%B4%E6%98%8E"><span class="toc-text">对用户信息的收集说明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E5%8A%A8%E6%94%B6%E9%9B%86"><span class="toc-text">主动收集</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A2%AB%E5%8A%A8%E6%94%B6%E9%9B%86"><span class="toc-text">被动收集</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E6%9D%83%E9%99%90%E8%AF%B4%E6%98%8E"><span class="toc-text">应用权限说明</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E5%8D%93%E7%89%88"><span class="toc-text">安卓版</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A1%8C%E9%9D%A2%E7%89%88"><span class="toc-text">桌面版</span></a></li></ol></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
 
     
       <div class="comments-container">
